@@ -5,7 +5,11 @@ function Title() {                      {/*組件 */}
         <div className='title' >       {/*區塊 */}
         <a>旅遊網</a>                   {/*文本*/ }
         </div>
-        <div></div>
+        <div className='options'>
+            <a >選項一</a>
+            <a >選項二</a>
+            <a >選項三</a>
+        </div>
     </div>
 }
 

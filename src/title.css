@@ -5,11 +5,10 @@ box-sizing: border-box;
 }
 .browse{                        /*CSS選擇器*/
     background-color: #272727;
-   display: flex;
+   display: inline-flex;
    height: 100px;
    width: 100%;
    align-items: center;
-   border-radius:0 0 10px 10px;
    position: fixed;
    opacity: .7;
 }
@@ -19,8 +18,27 @@ box-sizing: border-box;
     font-family: sans-serif;
     margin: 10px;
     font-weight: bold;
+    transition-duration: 0.3s;
     
+}
+.title a:hover{
+    color: #37a;
+}
+.options a:hover{
+    color: #37a;
+}
+.options{
+    display:inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 0;
     
+}
+.options a{
+    font-size: 3cqh;
+    padding: 15px 15px;
+    right: 0;
+    transition-duration: 0.3s;
 }
 .picture{
     width: 100%;
