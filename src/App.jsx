@@ -1,4 +1,4 @@
-import Trr from "./trr"
+import Title from "./title"
 import './title.css'
 import Picture from "./picture"
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     
-     <Trr />
+     <Title />
      <Picture />
     </>
   )

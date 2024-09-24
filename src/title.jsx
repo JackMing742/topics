@@ -1,5 +1,5 @@
 import './title.css'
-function Trr() {
+function Title() {
     return <div className="browse">
         
         <div className='title' >
@@ -11,4 +11,4 @@ function Trr() {
 
 
 
-export default Trr;
+export default Title;
