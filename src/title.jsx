@@ -1,9 +1,9 @@
-import './title.css'
-function Title() {
+import './title.css'                    /*導入 */
+function Title() {                      {/*組件 */}
     return <div className="browse">
         
-        <div className='title' >
-        <a>旅遊網</a>
+        <div className='title' >       {/*區塊 */}
+        <a>旅遊網</a>                   {/*文本*/ }
         </div>
         <div></div>
     </div>
@@ -11,4 +11,4 @@ function Title() {
 
 
 
-export default Title;
+export default Title;               /*導出 */

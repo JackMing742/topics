@@ -4,7 +4,7 @@ import Picture from "./picture"
 function App() {
   
 
-  return (
+  return (                      /* 回傳組件*/
     <>
     
      <Title />
