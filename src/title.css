@@ -39,6 +39,7 @@ box-sizing: border-box;
     padding: 15px 15px;
     right: 0;
     transition-duration: 0.3s;
+    color: white;
 }
 .picture{
     width: 100%;
