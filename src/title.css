@@ -18,8 +18,9 @@ box-sizing: border-box;
     font-family: sans-serif;
     margin: 10px;
     font-weight: bold;
+}
+title a{
     transition-duration: 0.3s;
-    
 }
 .title a:hover{
     color: #37a;
@@ -55,6 +56,11 @@ box-sizing: border-box;
 }
 .content{
     margin: 60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.content.ed{
+    opacity: 1;
 }
 .content > h1 {
     color: #37a;
